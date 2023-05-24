@@ -1,6 +1,7 @@
+"""TODO: Docstring for trim.py."""
 from PIL import Image, ImageChops
 
-def trim(img):
+def trim_to_object(image):
     """TODO: Docstring for trim.
 
     :image_path: TODO
@@ -8,9 +9,9 @@ def trim(img):
 
     """
     # Trim the image to its object
-    bg = Image.new(img.mode, img.size, img.getpixel((0,0)))
-    diff = ImageChops.difference(img, bg)
+    background = Image.new(image.mode, image.size, image.getpixel((0,0)))
+    diff = ImageChops.difference(image, background)
     bbox = diff.getbbox()
-    trimmed_img = img.crop(bbox)
+    trimmed_img = image.crop(bbox)
 
     return trimmed_img

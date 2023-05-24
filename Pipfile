@@ -6,10 +6,11 @@ name = "pypi"
 [packages]
 pillow = "*"
 pyqt6 = "*"
+pylint = "*"
+loguru = "*"
 
 [dev-packages]
 pynvim = "*"
-pylint = "*"
 pyqt6-tools = "*"
 
 [requires]

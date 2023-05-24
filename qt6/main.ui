@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>326</width>
+    <width>922</width>
     <height>141</height>
    </rect>
   </property>
@@ -16,29 +16,37 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
-     <widget class="QPushButton" name="inputBt">
+     <widget class="QPushButton" name="input_btn">
       <property name="text">
        <string>Input folder</string>
       </property>
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QLineEdit" name="inputPath"/>
+     <widget class="QLineEdit" name="input_path_line">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </item>
     <item row="1" column="0">
-     <widget class="QPushButton" name="outputBt">
+     <widget class="QPushButton" name="output_btn">
       <property name="text">
        <string>Output folder</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="outputPath"/>
-    </item>
     <item row="2" column="0" colspan="2">
-     <widget class="QPushButton" name="trimBt">
+     <widget class="QPushButton" name="trim_btn">
       <property name="text">
        <string>Trim</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="output_path_line">
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </item>
@@ -49,7 +57,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>326</width>
+     <width>922</width>
      <height>20</height>
     </rect>
    </property>
