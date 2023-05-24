@@ -2,6 +2,10 @@
 
 Just trim the image.
 
+
+https://github.com/salastro/ImageTrimExport/assets/63563250/be1966cd-80b2-4c76-a903-22eada6b22a4
+
+
 ## Usage
 
 ```
